@@ -6,6 +6,7 @@
  * descriptions if else statement
  * return: 0 for success
  */
+
 int main(void)
 {
 int n;
