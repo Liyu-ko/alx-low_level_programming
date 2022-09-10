@@ -3,7 +3,8 @@
 #include <time.h>
 /**
  * main - positive and negative numbers
- * descriptions if else statement
+ * @void: empty parameter list for main
+ * Description: if else statement
  * return: 0 for success
  */
 
