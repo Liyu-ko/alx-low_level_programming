@@ -2,7 +2,7 @@
 /**
  * main - prints single digit numbers
  *
- * return: 0 for success
+ * Return: 0 for success
  */
 int main(void)
 {
@@ -16,3 +16,4 @@ while (i <= '9')
 putchar('\n');
 return (0);
 }
+
