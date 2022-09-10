@@ -4,7 +4,6 @@
  *
  * return: 0 for success
  */
-
 int main(void)
 {
 int i = '0';
