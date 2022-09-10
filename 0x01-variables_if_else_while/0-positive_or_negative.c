@@ -8,6 +8,12 @@
 #include <stdio.h>
 int main(void)
 {
+
+/**
+ * variables n declared
+ * the assign the random value
+ */
+
 	int n;
 
 	srand(time(0));
