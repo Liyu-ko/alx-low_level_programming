@@ -20,5 +20,5 @@ while (i != '9')
 	i++;
 }
 putchar('\n');
-return(0);
+return (0);
 }
