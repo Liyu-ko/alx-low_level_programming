@@ -8,31 +8,22 @@
  * Return: 0 for success
  */
 int main(void)
-int i, j;
-i = '0'; j = '0';
 {
-	while (i <= '9')
+int i, j;
+for (i = 48; i <= 57; i++)
+{
+	for (j = 48; j <= 57; j++)
 	{
-		while (j <= '9')
+		putchar(i);
+		putchar(j);
+		if (i + j < 114)
 		{
-			if (!(i > j) || i == j)
-			{
-				putchar(i);
-				putchar(j);
-				if (i == '8' && j == '9')
-				{
-					putcha('\n');
-				}
-				else 
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			j++
+			putchar(44);
+			putchar(32);
 		}
-		j = '0';
-		i++;
 	}
-	return (0);
 }
+putchar(10);
+return (0);
+}
+
