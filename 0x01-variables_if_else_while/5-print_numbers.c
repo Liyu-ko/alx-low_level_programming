@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints numbers less than 10
+ * main - print numbers base 10
  *
  *
- * return: 0 for sucess
+ * Return: 0 for success
  */
 int main(void)
 {
