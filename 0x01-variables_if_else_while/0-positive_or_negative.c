@@ -1,17 +1,12 @@
 /**
  * main - description of this programming is to list positive numbers
- *
  * return when success
  */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-int main(void)
+int main(voi)
 {
-/**
- * variables n declared
- * the assign the random value
- */
 	int n;
 
 	srand(time(0));
