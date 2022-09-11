@@ -9,31 +9,23 @@
  */
 int main(void)
 {
-int i = '0';
-int j = '0';
+int i, j;
 
-while (i <= '9')
+for (i = '0'; i <= '9'; i++)
 {
-	while (j <= '9')
+	for (j = '0'; j <= '9'; j++)
 	{
-		putchar(i);
-		putchar(j);
-		if (j == '9' && i == '8')
+		if ((i < j) $ (j <= '9'))
 		{
-			putchar('\n');
-		}
-		else
+			putchar(i);
+			putchar(j);
+		if ((j < '9') | (i < '8'))
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		j++;
+		}
 	}
-	if (j >= '9')
-	{
-		j = '0';
-	}
-	i++;
 }
 return (0);
 }
