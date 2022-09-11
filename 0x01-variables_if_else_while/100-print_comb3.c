@@ -9,21 +9,31 @@
  */
 int main(void)
 {
-int i, j;
-for (i = 48; i <= 57; i++)
+int i = '0';
+int j = '0';
+
+while (i <= '9')
 {
-	for (j = 48; j <= 57; j++)
+	while (j <= '9')
 	{
 		putchar(i);
 		putchar(j);
-		if (i + j < 114)
+		if (j == '9' && i == '9')
 		{
-			putchar(44);
-			putchar(32);
+			putchar('\n');
 		}
+		else
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		j++;
 	}
+	if (j >= '9')
+	{
+		j = '0';
+	}
+	i++;
 }
-putchar(10);
 return (0);
 }
-
