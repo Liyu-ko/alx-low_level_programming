@@ -1,8 +1,9 @@
 #include <unistd.h>
 /**
  * _putchar - write putchar
- *@c: character write
- *Return: 1
+ * @c: character write
+ * Return: 1
+ * On erro, -1 is returned, errno is set appropriately.
  */
 int _putchar(char c)
 {
